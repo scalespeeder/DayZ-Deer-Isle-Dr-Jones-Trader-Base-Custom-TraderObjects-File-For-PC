@@ -2,7 +2,7 @@ DayZ Dr Jones Trader Mod Custom TraderObjects File To Spawn Trader Base At Main 
 
 This traderobjects file will place a trader base at the main airfield on Deer Isle, 5837.00 / 3794.39
 
-Must be used with correctly istalled Dr Jones Trader Mod, replacing the vanilla traderobjects file.
+Must be used with correctly installed Dr Jones Trader Mod, replacing the vanilla traderobjects file.
 
 https://steamcommunity.com/sharedfiles/filedetails/?id=1590841260
 
@@ -10,7 +10,7 @@ Limited Testing on PC Deer Isle Local Server DAYZ Version 1.20 May 2023.
 
 Trader & .dze Files Created by @scalespeeder . Please report bugs & errors to scalespeeder@gmail.com with screenshots.
 
-Included in the file are "commented-out" extra trader NPC's and trader positions, so you can add custome traders (for helis, black-market, etc.)
+Included in the file are "commented-out" extra trader NPC's and trader positions, so you can add custom traders (for helis, black-market, etc.)
 
 Included in the repository is my DayZ Editor Mod .dze file, which you could use to customise the trader - you would
 need to re-export as json and then convert to Dr Jones Trader mod format.
