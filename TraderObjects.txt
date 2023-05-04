@@ -1,0 +1,281 @@
+// ------------------------------------------------------ Trader Markers -------------------------------------------------------
+
+
+// Main Airfield:
+
+<TraderMarker> 			0 									// Trader ID
+<TraderMarkerPosition>	5833.6201171875, 74.07649993896485,  3806.360107421875	// Coordinate X, 	Coordinate Y, 	Coordinate Z
+<TraderMarkerSafezone>	80									// Safezone Radius
+
+<TraderMarker> 			1
+<TraderMarkerPosition>	 5835.58984375, 74.0999984741211, 3803.7900390625
+<TraderMarkerSafezone>	80
+
+<TraderMarker> 			2
+<TraderMarkerPosition>	 5837.2998046875, 74.20610046386719, 3797.340087890625
+<TraderMarkerSafezone>	80
+
+<TraderMarker> 			3
+<TraderMarkerPosition>	 5841.509765625, 74.0999984741211, 3797.889892578125
+<TraderMarkerSafezone>	80
+
+<TraderMarker> 			4
+<TraderMarkerPosition>	5843.1298828125, 74.0999984741211, 3790.780029296875
+<TraderMarkerSafezone>	30
+
+<TraderMarker> 			5
+<TraderMarkerPosition>	 5848.2998046875, 74.08740234375, 3791.0
+<TraderMarkerSafezone>	30
+<VehicleSpawn>			5821.72998046875, 73.98688507080078, 3794.260009765625	// Vehicle Spawnpoint for Trader; 	Coordinate X, 	Coordinate Y, 	Coordinate Z (optional)
+<VehicleSpawnOri>		-126.66278076171875,		0,			0			// Vehicle Spawnpoint Orientation; 	Yaw, 			Pitch, 			Roll	 	 (optional)
+
+
+//  Optional Aircraft Trader:
+
+//	<TraderMarker> 6
+//	<TraderMarkerPosition>  5848.93994140625, 74.12969970703125, 3784.179931640625
+//	<TraderMarkerSafezone> 50
+//	<VehicleSpawn>  5807.7041015625, 80.87837982177735, 3774.41650390625
+//	<VehicleSpawnOri> 156.973557, 0, 0
+
+
+//  Optional Black Market:
+
+//	<TraderMarker> 7     // Weapons & Armour Trader
+//	<TraderMarkerPosition> 5852.77978515625, 74.0999984741211, 3784.639892578125
+//	<TraderMarkerSafezone> 50
+
+
+//	<TraderMarker> 8     // Pharmaceuticals Trader
+//	<TraderMarkerPosition>  5855.72021484375, 74.0999984741211, 3778.360107421875
+//	<TraderMarkerSafezone> 50
+
+//	<TraderMarker> 9     // Squad MSF-C Trader
+//	<TraderMarkerPosition>  5856.18017578125, 74.1297607421875, 3775.219970703125
+//	<TraderMarkerSafezone> 50
+
+
+
+
+
+// ------------------------------------------------------ Objects to Spawn ------------------------------------------------------
+	
+//  Helicopter Trader THANKS TO gwt123
+
+//  <Object> SurvivorM_Peter
+//	<ObjectPosition> 5848.93994140625, 74.12969970703125, 3784.179931640625
+//	<ObjectOrientation> -180, 0, 0
+//	<ObjectAttachment> CowboyHat_brown
+//	<ObjectAttachment> AKM
+//	<ObjectAttachment> AK_RailHndgrd_Black
+//	<ObjectAttachment> AK_FoldingBttstck_Black
+//	<ObjectAttachment> TShirt_black
+//	<ObjectAttachment> AviatorGlasses
+//	<ObjectAttachment> BDUPants
+//	<ObjectAttachment> OMNOGloves_Gray
+//	<ObjectAttachment> MilitaryBoots_Black
+
+//	<Object> StaticObj_Decal_Heli_Army
+//	<ObjectPosition>  5807.7041015625, 80.87837982177735, 3774.41650390625
+//	<ObjectOrientation> 0, 0, 0
+
+<Object> Land_Mil_Tent_Big1_1
+<ObjectPosition>  5834.0234375, 73.99581909179688, 3804.75732421875
+<ObjectOrientation> 49.44, 0, 0
+
+<Object> Land_Mil_Tent_Big1_2
+<ObjectPosition>  5840.04736328125, 73.99308776855469, 3797.633544921875
+<ObjectOrientation> 49.44, 0, 0
+
+<Object> Land_Mil_Tent_Big1_3
+<ObjectPosition> 5845.6669921875, 74.00657653808594, 3790.77978515625
+<ObjectOrientation> 49.44, 0, 0
+
+<Object> Land_Mil_Tent_Big1_4
+<ObjectPosition> 5850.89794921875, 74.0490493774414, 3784.454345703125
+<ObjectOrientation> 49.44, 0, 0
+
+<Object> Land_Mil_Tent_Big1_5
+<ObjectPosition> 5856.9267578125, 74.04904174804688, 3777.7177734375
+<ObjectOrientation> 49.44, 0, 0
+
+<Object> StaticObj_Furniture_yellow_star
+<ObjectPosition> 5821.72998046875, 73.98688507080078, 3794.260009765625
+<ObjectOrientation> 0, -90, 0
+
+<Object> Land_RoadCone
+<ObjectPosition> 5819.6044921875, 74.00657653808594, 3790.130126953125
+<ObjectOrientation> 0, 0 , 0
+
+<Object> Land_RoadCone
+<ObjectPosition>  5825.66748046875, 74.00657653808594, 3794.5439453125
+<ObjectOrientation> 0, 0 , 0
+
+<Object> Land_RoadCone
+<ObjectPosition> 5822.734375, 74.00657653808594, 3797.946533203125
+<ObjectOrientation> 0, 0 , 0
+
+<Object> Land_RoadCone
+<ObjectPosition> 5817.08740234375, 74.00657653808594, 3793.44140625
+<ObjectOrientation> 0, 0 , 0
+
+<Object> Land_Misc_Toilet_Mobile
+<ObjectPosition> 5836.75244140625, 75.18783569335938, 3809.060302734375
+<ObjectOrientation> -128.87591552734376, 0 , 0
+
+<Object> BarrelHoles_Green
+<ObjectPosition> 5839.5771484375, 74.0021743774414, 3791.490966796875
+<ObjectOrientation> 0.0, 0, 0
+
+<Object> BarrelHoles_Blue
+<ObjectPosition> 5845.05517578125, 74.0465087890625, 3785.058837890625
+<ObjectOrientation> 0.0, 0, 0
+
+<Object> Land_Misc_Toilet_Mobile
+<ObjectPosition> 5838.44287109375, 75.18783569335938, 3807.162841796875
+<ObjectOrientation> -128.87591552734376, 0, 0
+
+<Object> Land_crates_EP1
+<ObjectPosition> 5833.826171875, 74.74208068847656, 3798.4033203125
+<ObjectOrientation> 50.611812591552737, 0, 0
+
+<Object> Land_Crates_stack_EP1
+<ObjectPosition> 5850.40869140625, 74.76335144042969, 3778.548583984375
+<ObjectOrientation> 0.0, 0, 0
+
+<Object> StaticObj_ammoboxes_stacked
+<ObjectPosition> 5845.9462890625, 74.73210906982422, 3799.42041015625
+<ObjectOrientation> 52.96511459350586, 0, 0
+
+<Object> Land_bags_stack_EP1
+<ObjectPosition> 5850.6064453125, 74.41417694091797, 3793.070556640625
+<ObjectOrientation> 0.0, 0, 0
+
+<Object> Land_jmc_facility_crate_stacked_cloth
+<ObjectPosition> 5853.90185546875, 73.9716567993164, 3788.8212890625
+<ObjectOrientation> -41.131866455078128, 0, 0
+
+<Object> StaticObj_Misc_TirePile
+<ObjectPosition> 5861.70703125, 78.27942657470703, 3779.3427734375
+<ObjectOrientation> 0.0, 0, 0
+
+//  Black Market
+
+//  <Object> SurvivorF_Maria
+//  <ObjectPosition>  5856.18017578125, 74.1297607421875, 3775.219970703125
+//  <ObjectOrientation>   0.0, 0.0, -0.0
+//  <ObjectAttachment> Balaclava3Holes_Black
+//  <ObjectAttachment> M16A2
+//  <ObjectAttachment> M4_Suppressor
+//  <ObjectAttachment> PlateCarrierVest
+//  <ObjectAttachment> DarkMotoHelmet_Black
+//  <ObjectAttachment> TacticalShirt_Olive
+//  <ObjectAttachment> TacticalGloves_Black
+//  <ObjectAttachment> MilitaryBoots_Black
+//  <ObjectAttachment> USMCPants_Woodland
+
+//  <Object> SurvivorF_Gabi
+//  <ObjectPosition>  5852.77978515625, 74.0999984741211, 3784.639892578125
+//  <ObjectOrientation>  -90.0, 0.0, 0.0
+//  <ObjectAttachment> Balaclava3Holes_Black
+//  <ObjectAttachment> M16A2
+//  <ObjectAttachment> M4_Suppressor
+//  <ObjectAttachment> UKAssVest_Camo
+//  <ObjectAttachment> DarkMotoHelmet_Green
+//  <ObjectAttachment> TacticalShirt_Black
+//  <ObjectAttachment> TacticalGloves_Black
+//  <ObjectAttachment> MilitaryBoots_Black
+//  <ObjectAttachment> USMCPants_Woodland
+
+//  <Object> SurvivorF_Helga
+//  <ObjectPosition> 5848.93994140625, 74.12969970703125, 3784.179931640625
+//  <ObjectOrientation>   120.0, 0.0, 0.0
+//  <ObjectAttachment> Balaclava3Holes_Black
+//  <ObjectAttachment> M16A2
+//  <ObjectAttachment> M4_Suppressor
+//  <ObjectAttachment> HighCapacityVest_Black
+//  <ObjectAttachment> DarkMotoHelmet_Red
+//  <ObjectAttachment> TacticalShirt_Tan
+//  <ObjectAttachment> TacticalGloves_Black
+//  <ObjectAttachment> MilitaryBoots_Black
+//  <ObjectAttachment> USMCPants_Woodland
+
+
+<Object> 			SurvivorF_Irena						// Classname
+<ObjectPosition>	5833.6201171875, 74.07649993896485, 3806.360107421875		// Coordinate X, 	Coordinate Y, 	Coordinate Z
+<ObjectOrientation>	  -179.99998474121095, 0.0, 0.0		// Yaw, 			Pitch, 			Roll
+//<ObjectAttachment>	NPC_DUMMY						// Add this if you are using an non Character Object for an Trader (like Vending Machines, etc.). It is needed to make the User Action for the Trading Menu work.
+<ObjectAttachment>	BoxCerealCrunchin					// Add an Item to the Traders Inventory;
+<ObjectAttachment>	SurgicalGloves_White
+<ObjectAttachment>	Bandana_Polkapattern
+<ObjectAttachment>	MiniDress_PinkChecker
+<ObjectAttachment>	DressShoes_White
+
+<Object> 			SurvivorF_Keiko
+<ObjectPosition>	 5835.58984375, 74.0999984741211, 3803.7900390625
+<ObjectOrientation>	-70.18441009521485, 0.0, -0.0
+<ObjectAttachment>	Wrench
+<ObjectAttachment>	SledgeHammer
+<ObjectAttachment>	WorkingGloves_Brown
+<ObjectAttachment>	ConstructionHelmet_White
+<ObjectAttachment>	Shirt_BlueCheck
+<ObjectAttachment>	CanvasPants_Blue
+<ObjectAttachment>	WorkingBoots_Grey
+
+<Object> 			SurvivorM_Seth
+<ObjectPosition>	5837.2998046875, 74.20610046386719, 3797.340087890625
+<ObjectOrientation> 90.0, 0.0, 0.0
+<ObjectAttachment>	FirefighterAxe
+<ObjectAttachment>	SVD
+<ObjectAttachment>	PSO1Optic
+<ObjectAttachment>	M4A1
+<ObjectAttachment>	M4_RISHndgrd
+<ObjectAttachment>	Universallight
+<ObjectAttachment>	M4_OEBttstck
+<ObjectAttachment>	M68Optic
+<ObjectAttachment>	M4_Suppressor
+<ObjectAttachment>	OMNOGloves_Gray
+<ObjectAttachment>	MilitaryBeret_CDF
+<ObjectAttachment>	PlateCarrierVest
+<ObjectAttachment>	TTsKOJacket_Camo
+<ObjectAttachment>	TTSKOPants
+<ObjectAttachment>	MilitaryBoots_Black
+<ObjectAttachment>	AliceBag_Camo
+
+<Object> 			SurvivorM_Taiki
+<ObjectPosition>	5841.509765625, 74.0999984741211, 3797.889892578125
+<ObjectOrientation>	 -90.0, 0.0, 0.0
+<ObjectAttachment>	Mag_STANAG_30Rnd
+<ObjectAttachment>	SportGlasses_Orange
+<ObjectAttachment>	BaseballCap_Camo
+<ObjectAttachment>	TacticalShirt_Olive
+<ObjectAttachment>	SmershVest
+<ObjectAttachment>	BDUPants
+<ObjectAttachment>	TTSKOBoots
+<ObjectAttachment>	AssaultBag_Ttsko
+
+<Object> 			SurvivorF_Frida
+<ObjectPosition>	  5843.1298828125, 74.0999984741211, 3790.780029296875
+<ObjectOrientation>	 130.0, 0.0, 0.0
+<ObjectAttachment>	ThickFramesGlasses
+<ObjectAttachment>	WomanSuit_Black
+<ObjectAttachment>	SlacksPants_Black
+<ObjectAttachment>	DressShoes_Black
+
+<Object> 			SurvivorM_Peter
+<ObjectPosition>	5848.2998046875, 74.08740234375, 3791.0
+<ObjectOrientation>	 -90.0, 0.0, 0.0
+<ObjectAttachment>	LugWrench
+<ObjectAttachment>	WorkingGloves_Black
+<ObjectAttachment>	ReflexVest
+<ObjectAttachment>	JumpsuitJacket_Blue
+<ObjectAttachment>	JumpsuitPants_Blue
+<ObjectAttachment>	HikingBootsLow_Blue
+
+
+
+
+
+
+//<OpenFile> FileName.txt								// Links to another File; Must be right above <FileEnd>!
+<FileEnd>												// This has to be on the End of this File and is very importand!
